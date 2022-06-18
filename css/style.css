@@ -376,20 +376,62 @@ img{
     }
 }
 
-#help{
-    padding: 10px 10%;
-    background-color: black;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Help-us{
+    background-color: rgb(15, 15, 15);
+    padding: 7%;
     color: white;
     text-align: center;
-    font-family: "Raleway",sans-serif;
 }
-.table1{
-    block-size: 20%;
-}
-.heading-help{
-    color: white;
+.Help-us>h1{
     font-size: 2.5em;
-    text-align: center;
-    padding: 7% 0 0;
-    font-family: 'Raleway', sans-serif;
+    margin: 15px 0;
+}
+
+.main-container{
+    display: flex;
+    padding: 5% 0;
+    justify-content: space-between;
+    text-align: left;
+}
+.container-el{
+    display: flex;
+    width: 30%;
+    align-self: stretch;
+}
+.container-icon{
+    padding: 10px;
+    border: 2px solid steelblue;
+    align-self: flex-start;
+    font-size: 1.5em;
+    margin: 5px 15px 0;
+}
+
+.container-itmes{
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container-itmes>h2{
+    padding-bottom: 15px;
+}
+.container-itmes>p{
+    padding: 15px 0;
+}
+.container-itmes>div{
+    padding: 15px 0;
+}
+.container-itmes>div>a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    
 }
